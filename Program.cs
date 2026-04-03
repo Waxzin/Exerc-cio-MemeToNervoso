@@ -1,9 +1,9 @@
 ﻿string fraseResposta;
-string fraseMemeToNervoso;
 
-Console.Write("Fala oque voce acha de mim cara? ");
-fraseResposta = Console.ReadLine();
+Console.Write("Fala oque voce acha de mim?");
+fraseResposta = Console.ReadLine()!;
 
-fraseMemeToNervoso = $"{fraseMemeToNervoso.Remove(10)}... NÃO PERA. \n to nervoso";
+ string memeToNervoso = 
+    $"{memeToNervoso.Remove(10)}... NÃO PERA. \n to Nervoso"!;
 
-Console.WriteLine(fraseMemeToNervoso);
+Console.WriteLine(memeToNervoso);
